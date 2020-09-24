@@ -6,4 +6,13 @@
 
 .navbar-brand {
     text-align: center;
+    padding-top: 37px;
+    padding-left: 100px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar-default {
+    background-color: #2c3e50;
+
 }
