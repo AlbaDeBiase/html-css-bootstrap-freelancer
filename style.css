@@ -41,8 +41,6 @@ color:#1abc9c;
 
 }
 
-
-
 .navbar-right {
     margin-right: 14px;
     margin-top: 23px;
@@ -51,6 +49,9 @@ color:#1abc9c;
         padding-top: 50px;
     }
 
+.col-xs-12 {
+    background-color: #1abc9c;
+}
     section {
         padding: 50px 0;
         color: #2c3e50;
@@ -116,4 +117,12 @@ color:#1abc9c;
             font-size: 24px;
         }
 
+    }
+
+    .section-title-b {
+        color: white;
+    }
+
+    .section-title-b {
+        color:blue;
     }
