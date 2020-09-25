@@ -1,7 +1,6 @@
 
 .container {
     width: 100%;
-    background: #2c3e50;
 }
 
 body {
@@ -10,6 +9,13 @@ body {
 }
 .row {
     width: 100%;
+}
+
+h1{
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 50px;
 }
 
 .navbar-brand {
@@ -88,7 +94,7 @@ color:#1abc9c;
         border-radius: 2px;
         display: inline-block;
         vertical-align: middle;
-    }
+        }
 
     .separator .fa-star {
         vertical-align: middle;
@@ -119,10 +125,15 @@ color:#1abc9c;
 
     }
 
-    .section-title-b {
-        color: white;
+    .h1-title-b {
+        color:#2c3e50 ;
+
     }
 
-    .section-title-b {
-        color:blue;
+    .h1-title {
+        color:white;
+    }
+
+    #portfolio, #about, #contact {
+        text-align: center;
     }
