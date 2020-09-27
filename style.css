@@ -148,7 +148,13 @@ color:#1abc9c;
 
 }
 
-.paragraph-about {
-    text-align: center;
+.paragraph-about{
+    text-align: left;
+    font-size: 20px;
+    margin-left:128px;
 
 }
+
+/* .p:first-of-type {
+    margin-left:128px;
+} */
