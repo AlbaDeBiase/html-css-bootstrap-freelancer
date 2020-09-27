@@ -227,3 +227,15 @@ footer {
 #start-footer {
     color:#1abc9c;
 }
+
+
+#footer-bottom {
+    background-color:#1a252f;
+    height: 100px;
+    color: white;
+    text-align: center;
+}
+
+#copyright {
+    padding: 40px 10px;
+}
