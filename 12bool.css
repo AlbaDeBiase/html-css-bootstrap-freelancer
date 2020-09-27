@@ -13,6 +13,8 @@
     float: left;
 }
 
+@media (max-width: 480px) {
+
 .col-xs-1 {
     width: calc(100% / 12);
 }
@@ -107,6 +109,8 @@
 
 .col-xs-offset-11 {
     margin-left: calc((100% / 12) * 11);
+}
+
 }
 
 @media screen and (min-width: 768px) {
