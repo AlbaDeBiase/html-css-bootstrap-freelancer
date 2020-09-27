@@ -151,10 +151,42 @@ color:#1abc9c;
 .paragraph-about{
     text-align: left;
     font-size: 20px;
-    margin-left:128px;
+}
+
+.button {
+    margin-top: 50px;
+    background-color: #1abc9c;
+    padding: 21px 40px;
+    font-size: 20px;
+    border-radius: 9px;
+    border-color: white;
+}
+
+#fname, #fname2,#number, #email, #submit {
+    display: block;
+    border: none;
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+
+
+
+.form {
+    color: #212529;
+    text-align: left;
 
 }
 
-/* .p:first-of-type {
-    margin-left:128px;
-} */
+.number2, .email2, .submit2, .textarea2, .text2 {
+    padding-bottom: 20px;
+
+}
+
+#submit {
+    background-color: #1abc9c;
+    padding: 17px 14px;
+    margin-top: 120px;
+    color: white;
+    font-size: 23px;
+    border-radius: 9px;
+}
