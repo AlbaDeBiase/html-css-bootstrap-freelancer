@@ -141,11 +141,24 @@ color:#1abc9c;
     margin-bottom: 50px;
 
 }
+/*
+.photo-row-up:hover:before {
+    visibility: visible;
+
+}
+
+.photo-row-up:hover:after {
+    visibility: visible;
+    background-color: #1abc9c;
+
+} */
+
+
 
 .photo-row-down{
     width: 320px;
     border-radius: 10px;
-
+    margin-bottom: 50px;
 }
 
 .paragraph-about{
@@ -242,7 +255,8 @@ footer {
     text-align: center;
     color: #f8f9fa;
     border-color: #f8f9fa;
-
+    padding-left: 6px;
+    padding-bottom: 10px;
 
 
 }
