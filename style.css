@@ -136,14 +136,19 @@ color:#1abc9c;
     }
 
 .photo-row-up{
-    width: 300px;
+    width: 320px;
     border-radius: 10px;
     margin-bottom: 50px;
 
 }
 
 .photo-row-down{
-    width: 300px;
+    width: 320px;
     border-radius: 10px;
+
+}
+
+.paragraph-about {
+    text-align: center;
 
 }
