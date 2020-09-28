@@ -139,17 +139,17 @@ color:#1abc9c;
     }
 
 .photo-row-up{
-    width: 320px;
+    width: 100%;
     border-radius: 10px;
     margin-bottom: 50px;
 
 
 }
 
-
 .overlay {
     position: relative;
     max-width: 400px;
+
 }
 
 .overlay::before{
@@ -161,8 +161,9 @@ color:#1abc9c;
     width:100%;
     height:100%;
     visibility: hidden;
-    background-color: yellow;
+    background-color: #1abc9c;
     transition: all 1s;
+    border-radius: 5px;
 
 }
 
@@ -187,6 +188,13 @@ color:#1abc9c;
 }
 
 
+
+
+.photo-row-down{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
 
 .paragraph-about{
     text-align: left;
