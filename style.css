@@ -20,9 +20,10 @@ h1{
 
 .navbar-brand {
     padding-top: 37px;
-    padding-left: 100px;
+    padding-left: 13px;
     text-transform: uppercase;
     font-weight: bold;
+    height: auto;
 }
 
 .navbar-default {
@@ -43,7 +44,7 @@ color:#1abc9c;
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
     margin-left: -15px;
     color: white;
-    font-size: xx-large;
+    font-size: large;
 
 }
 
@@ -235,6 +236,7 @@ footer {
     border-radius: 70%;
     padding: 17px;
     border: 2px solid white;
+    display: inline-block;
 
 }
 
