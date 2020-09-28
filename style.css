@@ -1,6 +1,7 @@
 
 .container {
     width: 100%;
+
 }
 
 body {
@@ -107,6 +108,7 @@ color:#1abc9c;
     @media screen and (min-width: 992px) {
         .navbar-default .navbar-brand {
             font-size: 22px;
+
         }
 
         section {
@@ -141,26 +143,50 @@ color:#1abc9c;
     border-radius: 10px;
     margin-bottom: 50px;
 
+
 }
-/*
-.photo-row-up:hover:before {
+
+
+.overlay {
+    position: relative;
+    max-width: 400px;
+}
+
+.overlay::before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    visibility: hidden;
+    background-color: yellow;
+    transition: all 1s;
+
+}
+
+.overlay:hover::before, .overlay:hover::after {
     visibility: visible;
 
 }
 
-.photo-row-up:hover:after {
-    visibility: visible;
-    background-color: #1abc9c;
-
-} */
-
-
-
-.photo-row-down{
-    width: 320px;
-    border-radius: 10px;
-    margin-bottom: 50px;
+.overlay::after{
+    content: "\f067";
+    font-family: "font awesome 5 free";
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    display:inline-block;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+    transition:all 1s;
 }
+
+
 
 .paragraph-about{
     text-align: left;
